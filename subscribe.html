@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-white">
+
+    <div class="bg-[url('background.jpg')] min-h-screen bg-center bg-cover">
+
+<!--Navbar-->
+        <nav class="flex max-w-full bg-black/50 max-w-fit flex-wrap lg:text-xl md:text-lg sm:text-base xs:text-xs font-medium ">
+            <img src="logo.png" class="w-28 ml-5">
+            <ul class="flex items-center flex-wrap lg:gap-x-10 md:gap-x-6 sm:gap-x-4 xs:gap-x-2">
+                <li><a href="#" class="py-1 px-3 hover:bg-orange-400 hover:py-1 hover:px-3 hover:rounded-3xl hover:text-black duration-100 ml-5">About</a></li>
+                <li><a href="#" class="py-1 px-3 hover:bg-orange-400 hover:py-1 hover:px-3 hover:rounded-3xl hover:text-black duration-100">Testimonials</a></li>
+                <li><a href="#" class="py-1 px-3 hover:bg-orange-400 hover:py-1 hover:px-3 hover:rounded-3xl hover:text-black duration-100">Subscribe</a></li>
+            </ul>
+        </nav>
+
+<!--Bottom Banner-->
+        <div class="min-h-screen bg-black/70 w-3/5 mx-auto mt-10 mb-10 rounded-[12px]">
+            <div class="pt-20 text-center">
+                <h3 class="text-4xl text-white font-bold">Do your bit for the planet</h3>
+                <p class="mt-5 font-['Georgia'] leading-8 text-xl">Please select your subscription and start saving the planet today!</p>
+            </div>
+
+            <div class="flex ml-10 gap-x-14 justify-center font-bold min-h-screen">
+                <div class="flex flex-col items-center max-h-[24rem] w-2/5 mt-10 text-center text-slate-800 bg-orange-500 justify-center rounded-[12px]">
+                    <h3 class="xl:text-4xl md:text-2xl sm:text-xl h-1/4 px-4 text-white">Monthly</h3>
+                    <p class="px-3 mb-10 text-xs xl:text-base lg:text-sm md:text-xs sm:text-xs text-white mt-5">From £14.99/month</p>
+                </div>
+                <div class="flex flex-col items-center max-h-[24rem] w-2/5 mt-10 text-center text-slate-800 bg-orange-500 justify-center rounded-[12px]">
+                    <h3 class="xl:text-4xl md:text-2xl sm:text-xl h-1/4 px-4 text-white">Annual (Save 25%)</h3>
+                    <p class="px-3 mb-10 text-xs xl:text-base lg:text-sm md:text-xs sm:text-xs text-white mt-5">From £11.25/month</p>
+                </div>
+            </div>
+        </div>
+
+<!--Footer-->
+        <footer>
+            <div class="h-40 w-screen bg-black">
+                <div class="h-1/3 w-screen">
+                    <ul class="flex justify-center gap-x-16 items-end h-full font-medium">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Testimonials</li></a>
+                        <a href="#"><li>Subscribe</li></a>
+                    </ul>
+                </div>
+                <div class="h-1/3 w-screen flex justify-center items-end gap-x-10">
+                    <a href="#"><img src="fb.png" class="w-8 h-8"></a>
+                    <a href="#"><img src="Insta.png" class="w-8 h-8"></a>
+                    <a href="#"><img src="LinkedIn.png" class="w-8 h-8"></a>
+                    <a href="#"><img src="Twitter.png" class="w-8 h-8"></a>
+                </div>
+                <div class="h-1/3 w-screen text-xs flex items-end justify-center py-2">
+                    <p>© 2023 Chamsaz Organic Farmers Ltd, Richmond, Devon, TQ12 0JH, UK. Registered in England No. 3895750.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
